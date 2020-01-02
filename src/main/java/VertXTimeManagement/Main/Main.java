@@ -70,7 +70,6 @@ public class Main extends JavaPlugin implements TimeManagementAPI {
         debug = getConfig().getBoolean("debugmode");
         afkHandler = new ChangeHandler("GO_AFK", "GO_NO_AFK", "AFK");
         loginHandler = new ChangeHandler("LOGIN", "LOGOUT", "LOGINS");
-        testHandler = new ChangeHandler("TEST_IN", "TEST_OUT", "TEST_LOGIN");
 
         getServer().getPluginManager().registerEvents(new LogInOutListener(), this);
         getServer().getPluginManager().registerEvents(new AFKStatusChangeListener(), this);
