@@ -1,0 +1,9 @@
+#database
+host: "localhost"
+port: 3306
+database: "VERTX"
+username: "root"
+password: "password"
+
+#debug mode, set TRUE if you want debug messages
+debugmode: false

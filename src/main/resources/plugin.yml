@@ -1,0 +1,12 @@
+name: VertXTimeManagement
+main: VertXTimeManagement.Main.Main
+version: 1.0
+api-version: 1.13
+depend: []
+commands:
+  totaltime:
+    description: get the total time played
+    permission: time.total
+    permissions: []
+    permission-message: You need time.total to use this.
+    usage: "Usage: /totaltime"

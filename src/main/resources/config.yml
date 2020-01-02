@@ -1,0 +1,9 @@
+#database
+host: "my_host.com"
+port: 3306
+database: "database"
+username: "username"
+password: "password"
+
+#debug mode, set TRUE if you want debug messages
+debugmode: false
